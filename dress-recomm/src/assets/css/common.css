@@ -1,0 +1,86 @@
+*{
+  padding:0;
+  margin: 0;
+}
+.el-dialog{
+    padding:5px;
+}
+.el-row{
+    margin-bottom:15px;
+}
+.box-card {
+    /* width: 1000px; */
+    margin: 5px;
+  }
+  .operation{
+    padding: 0;
+    margin: 7px;
+  }
+/* 表格样式 */
+  .bottom {
+    margin-top: 10px;
+    margin-right: 40px;
+    line-height: 12px;
+    height: 12px;
+  }
+  table
+  {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin:5px;
+  }
+
+  table td, table th
+  {
+    padding: 10px;
+    border: 1px solid rgb(232, 230, 230);
+    font-weight:300; 
+    font-size:14px;
+    height: 25px;
+    line-height: 25px;
+  }
+  table th
+  {
+    background-color: #fafafa;
+  }
+  /* 卡片样式 */
+  .box-card {
+    /* width: 1000px; */
+    margin: 5px;
+  }
+/* 分页样式 */
+ .thePage,
+ .theGoodPage{
+    background: #eaf5ff;
+ }
+ .paging {
+  width:fit-content;
+  margin: 0 auto;
+}
+.tableScroll{
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* 失去焦点后 */
+.buttonDiv, .buttonDiv:focus:not(.buttonDiv:hover){ 
+  margin-right: 12px;
+  border: 1px solid #2794f8;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 #f4f4f4;
+  color: #2794f8;
+  background: white;
+}
+/*鼠标悬浮，没有按下；鼠标按下后抬起，没有移开*/
+.buttonDiv:focus, 
+.buttonDiv:hover{
+   background: #eaf5ff;
+   border: 1px solid #2794f8 !important;
+   color: #2794f8;
+ }
+ /*鼠标按下，没有抬起*/
+ .buttonDiv:active {
+    background: #2794f8;
+    color: white;
+ }

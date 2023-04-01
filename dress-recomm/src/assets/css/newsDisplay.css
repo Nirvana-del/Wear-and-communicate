@@ -1,0 +1,45 @@
+.newsDisplay::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.news-wrapper{
+    margin:10px 0 40px 10px;
+    position: relative;
+  }
+  .news-wrapper img{
+    width: 17%;
+    height: 17%;
+    line-height: 17%;
+    float: right;
+    display: inline;
+    margin-right: 20%;
+  }
+  .newsTitle,
+  .newsContent{
+    font-size: 20px;
+    margin:0 0 40px 0;
+    align-items: center;
+  }
+  .newsContent{
+    font-size: 15px;
+  }
+  .newsBrief{
+    display: flex;
+    font-size:15px;
+    color:#999;
+  }
+  .newsAuthor,
+  .newsView,
+  .newsReleaseTime{
+    margin-right:15px;
+  }
+  .dividingLine {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #f1efef;
+    position: absolute;
+    top: 80px;
+}

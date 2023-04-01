@@ -1,0 +1,50 @@
+.nav {
+    /* width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; */
+    position: relative;
+
+}
+
+.nav .nav-list {
+    margin: 0 auto;
+    /* max-width: 600Px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav .nav-list>div {
+    float: left;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC, sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-line {
+    margin: 0 auto;
+}
+
+.nav-line>div {
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+    position: relative;
+    top: -7px;
+}
+
+/* 新增激活状态样式 */
+.nav .nav-list .nav-list--active {
+    font-family: PingFangSC-Semibold, PingFang SC, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    transition: all 0.3s;
+}

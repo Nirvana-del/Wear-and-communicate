@@ -1,0 +1,34 @@
+/* 头条新闻 */
+.headlineNews{
+    background: rgb(250, 250, 250);
+    height: auto;
+    /* width: 100%; */
+    border-radius: 5%;
+    overflow: hidden;
+    margin-top: 30%;
+  }
+  .headlineNews img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    padding: 12px 0 0 10px;
+    /* background: url('../assets/imgs/redFire.png'); */
+  }
+  .headlines-bar{
+    color:#f04142;
+    font-weight: normal;
+    font-size:20px;
+    padding:10px;
+    display: inline;
+  }
+  .headline-display{
+    margin:15px 5px;
+  }
+  .headline-display i{
+     font-style:normal;
+     font-size:17px;
+  }
+  .headline-display i:nth-child(1){
+    font-weight: bold;
+    margin:0 15px 0 10px;
+  }

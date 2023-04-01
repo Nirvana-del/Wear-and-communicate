@@ -1,0 +1,10 @@
+.dividingLine {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #f1efef;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
